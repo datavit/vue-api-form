@@ -1,4 +1,3 @@
-// vue.config.js
 module.exports = {
-    publicPath: '/ Vue_restApi_formSubmit /'
-    }
+ publicPath: process.env.NODE_ENV === "production" ? "/vue-api-form/" : "/" 
+ }
